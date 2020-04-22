@@ -1,4 +1,4 @@
-package com.moyuchen.hootutil;
+package com.moyuchen.hootutil.util;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

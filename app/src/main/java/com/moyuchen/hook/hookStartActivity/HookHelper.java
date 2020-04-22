@@ -2,7 +2,7 @@ package com.moyuchen.hook.hookStartActivity;
 
 import android.app.Instrumentation;
 
-import com.moyuchen.hootutil.HookObjectUtil;
+import com.moyuchen.hootutil.util.HookObjectUtil;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Proxy;

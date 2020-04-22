@@ -1,2 +1,2 @@
-include ':app', ':hootutil'
+include ':app', ':hootutil', ':simpleapp'
 rootProject.name='Hook'
