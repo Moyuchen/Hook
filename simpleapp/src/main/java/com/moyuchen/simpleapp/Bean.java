@@ -1,5 +1,7 @@
 package com.moyuchen.simpleapp;
 
+import android.content.Context;
+
 import com.moyuchen.hootutil.inter.IBean;
 
 /**
@@ -21,4 +23,11 @@ public class Bean implements IBean {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String getStringValue(Context ctx) {
+        return ctx.getResources().getString(R.string.app_name);
+    }
+
+
 }
